@@ -3,7 +3,7 @@
 	"description": "Combines different group additions into one plugin",
 	"type": "elgg-plugin",
 	"keywords": ["elgg", "plugin", "input"],
-	"license": "GPL-2.0",
+	"license": "GPL-2.0-only",
 	"support": {
 		"source": "https://github.com/ColdTrick/input_url_helper",
 		"issues": "https://github.com/ColdTrick/input_url_helper/issues"
@@ -14,5 +14,8 @@
 	"require-dev": {
 		"coldtrick/sniffs": "dev-master",
 		"coldtrick/releases": "dev-master"
+	},
+	"conflict": {
+		"elgg/elgg": "<2.0"
 	}
 }

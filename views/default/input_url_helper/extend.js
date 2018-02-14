@@ -1,4 +1,4 @@
-define('input_url_helper/check_schema', ['jquery', 'elgg'], function($, elgg) {
+define(['jquery'], function($) {
 	
 	$(document).on('blur', 'input[type="url"].elgg-input-url', function() {
 		
