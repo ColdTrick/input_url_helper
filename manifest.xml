@@ -2,18 +2,18 @@
 <plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
 	<name>Input URL helper</name>
 	<author>ColdTrick IT Solutions</author>
-	<version>2.0</version>
+	<version>3.0-beta</version>
 	<id>input_url_helper</id>
 	<description>Make sure you have a schema prefix in input/url</description>
 	<website>http://www.coldtrick.com/</website>
 	<repository>https://github.com/ColdTrick/input_url_helper</repository>
 	<bugtracker>https://github.com/ColdTrick/input_url_helper/issues</bugtracker>
-	<copyright>(C) ColdTrick IT Solutions 2016 - 2019</copyright>
+	<copyright>(C) ColdTrick IT Solutions 2016 - 2020</copyright>
 	<license>GNU General Public License version 2</license>
  	
  	<requires>
 		<type>elgg_release</type>
-		<version>3.0</version>
+		<version>3.3</version>
 	</requires>
 	
 	<category>ColdTrick</category>
